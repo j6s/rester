@@ -1,0 +1,15 @@
+{
+  "repository": "sftp:j@192.168.0.10:files/backups/restic",
+  "sources": [ "/home/j/" ],
+  "password": "SOME_COMPLEX_PASSWORD",
+  "excludes": [
+    "node_modules",
+    "vendor",
+    ".cache"
+  ],
+
+  "_comment": "keep daily backups for the last 14 days, weekly for the last 25 weeks (about half a year) and montly for the last 4 years",
+  "keepDaily": 14,
+  "keepWeekly": 25,
+  "keepMonthly": 48
+}
