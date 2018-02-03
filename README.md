@@ -7,7 +7,7 @@ This wrapper intends to be a one-stop shop for creating new and deleting old bac
 
 ## Installation
 
-TODO
+To build rester, use `go build ./cmd/rester` in the repository root.
 
 ## Usage
 
